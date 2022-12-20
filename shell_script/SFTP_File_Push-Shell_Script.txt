@@ -1,0 +1,133 @@
+config folder
+-----------
+
+config.cfg
+----------
+inputdir=/home/sftpuser/DNDInput
+processeddir=/home/sftpuser/DNDOutput
+ext=*.csv
+username=IMC_CMDM
+#use escape character if the passkey has special character as lftp is using interpolation
+passkey=1m\@\_cM\$m\_2018
+hostip=172.17.105.14
+
+config.properties
+-------------------
+mail.smtp.host=smtp.office365.com
+mail.smtp.auth=true
+mail.smtp.port=587
+user=ims@payback.in
+password=123456Ii
+recipientsList=pradeep.m@customercentria.com
+
+-------------------------------------------------------------------------------------------------------
+
+cat sftp_pull.sh
+#!/bin/bash
+
+#configfile="./config/config.cfg"
+#functionscript="./function.sh"
+
+configfile="/home/sftpuser/ashok_script/config/config.cfg"
+functionscript="/home/sftpuser/ashok_script/function.sh"
+
+source $configfile
+source $functionscript
+
+copy
+
+mv  `pwd`/*.txt /home/sftpuser/OPT-OUT/optout.txt
+
+-----------------------------------------------------------------------------------------------------------
+[sftpuser@mumpbindimcpap05 ashok_script]$ cat function.sh
+#!/bin/bash
+
+
+
+#configfile="./config/config.cfg"
+configfile="/home/sftpuser/ashok_script/config/config.cfg"
+
+#if [ ! -f "$configfile" ]
+#then
+#    echo "$0: File '${configfile}' not found."
+#fi
+
+
+
+source $configfile
+
+
+copy()
+{
+lftp -u $username,$passkey sftp://$hostip <<EOF
+cd OPT-OUT
+mget optout_`date +"%Y%m%d"`.txt
+exit
+EOF
+}
+
+email(){
+        java -jar /home/sftpuser/ashok_script/lib/emailAlert.jar /home/sftpuser/ashok_script/config/config.properties $1 $2
+}
+
+---------------------------------------------------------------------------------------------------------------
+sftp.sh
+
+#!/bin/bash
+
+#checking the existance of the file
+
+
+#exec >>`pwd`/logs/sftp_`date +"%Y%m%d_%H%M%S"`.log
+
+configfile="./config/config.cfg"
+functionscript="./function.sh"
+
+#if [ ! -f "$configfile" ]
+#then
+#    echo "$0: File '${configfile}' not found."
+#    exit
+#fi
+
+if [ ! -f "$functionscript" ]
+then
+    echo "$0: File '${functionscript}' not found."
+    exit
+fi
+
+
+source $configfile
+source $functionscript
+
+
+#listing of files
+result=`ls $inputdir/$ext|wc -l`
+
+if [ $result -lt 1 ] ;
+    then
+        echo "[ERROR]: file doesn't exists..";
+        #Put Email alert over here
+        echo "Sending email alert.."
+        email "ALERT_DND_File_not_Found" "File_is_not_present_in_the_path_OPTOUT"
+        echo "Exiting!!!"
+        exit 1 ;
+fi
+
+
+#copying files to remote server
+for file in `ls $inputdir/$ext`
+do
+        echo "Coping File $file started `date`";
+        copy $file;
+        echo "Coping File $file finished `date`";
+        echo "Moving File $file started `date`";
+        mv $file $processeddir
+        echo "Moving File $file finished `date`";
+done
+
+
+--------------------------------------------------------------------------------------------
+
+logs/
+
+lib/

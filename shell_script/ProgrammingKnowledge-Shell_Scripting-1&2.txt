@@ -1,0 +1,34 @@
+Shell Scripting : Chapter - 1 & 2
+https://www.youtube.com/watch?v=cQepf9fY6cE&list=PLS1QulWo1RIYmaxcEqw5JhK3b-6rgdWO_&index=1
+
+# is used for comment
+
+Before writing a script, it is a good practice to write what kind of a script is being written.
+For Example: If it is a Bash Script, always start with "#! /bin/bash"
+
+echo : It is used to print a string or a variable.
+Ex: echo "Hello! World"
+
+Variables :
+System Variables : Are created and maintained by UNIX OS. These defined in Capital Letters
+Ex : PWD, HOME, BASH etc,
+User Variables : are created and maintained by End User. These are defined in small letters
+Ex : sum, difference, name etc
+
+
+Script
+-------
+*************************************************
+	#! /bin/bash
+
+	echo "Hello! World"
+	echo $BASH
+	echo $BASH_VERSION
+	echo $HOME
+	echo $PWD
+
+	name = Pradeep
+	age = 31
+	echo My Name is $name and my age is $age
+*************************************************
+

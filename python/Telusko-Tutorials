@@ -1,0 +1,101 @@
+#3 Python Tutorial for Beginners | Getting Started with Python
+--------------------------------------------------------------
+print('Navin') --> Regular Print
+print("Navin's Laptop") --> Single Quote
+print('Navin "Laptop"') --> Double Quote
+print('Navin\'s "Laptop"') --> Single & Double Quote
+10 * 'navin'
+print(r'c:\docs\navin') --> raw string because \n is new line.
+
+---------------------------------------------------------------
+#4 Python Tutorial for Beginners | Variables in Python
+---------------------------------------------------------------
+y = 3
+x = 4
+x + y
+
+_ --> represents output of previous operation
+y = 3
+x = 4
+x + y
+>> 7
+_ + y
+>> 10
+
+name = 'youtube'
+name + ' rocks'
+name[0]
+>> y
+name[6]
+>> e
+name[-1]
+>> e
+name[-7]
+>> y
+name[0:2]
+>> yo
+name[1:4]
+>> out
+name[1:]
+>> outube
+name[3:10]
+>> tube
+
+Strings in Python is immutable
+'my' + name[3:]
+my tube
+
+myname = 'Navin Reddy'
+len(myname)
+>> 11
+
+---------------------------------------------------------------------
+#5 Python Tutorial for Beginners | List in Python
+---------------------------------------------------------------------
+
+Lists are like arrays. List are mutable so values can be changed.
+
+nums = [25,12,36,95,14]
+nums[0]
+nums[4]
+nums[2:]
+nums[-1]
+nums[-5]
+
+names = ['navin','kiran','john']
+values = [9.5,'Navin',25]
+mil = [nums, names]
+
+nums.append(45) - It append the value at the end.
+nums.insert(2,77) - It inserts the value anywhere depending upon the index value.
+here 2 is index values
+nums.remove(14)
+nums.pop(1) - removes the array in the 1 index values
+nums.pop() - removes lifo
+del nums[2:] - removes multiple values
+nums.extend([29,12,14,36]) - adds multiple values (Refer Docs)
+min(nums)
+max(nums)
+sum(nums)
+nums.sort() - sorting.
+
+
+------------------------------------------------------------------------
+#6 Python Tutorial for Beginners | Tuple | Set in Python
+------------------------------------------------------------------------
+
+Tuple are immutable, so values cannot be changed.
+
+tup = (21,36,14,25)
+tup[1]
+tup[1] = 33 --> gives error as values cannot be changed.
+
+tuple can be used when we dont want to change the values.
+Iteration in Tuple is faster than list.
+
+
+Set is a collection of unique elements.
+s = {22,25,14,21,5}
+Set never follows a sequence and doesnt support duplicate values.
+set uses the concept of hash.
+Set doesnt support indexing.

@@ -17,7 +17,7 @@ mail.smtp.host=smtp.office365.com
 mail.smtp.auth=true
 mail.smtp.port=587
 user=ims@payback.in
-password=123456Ii
+password=
 recipientsList=pradeep.m@customercentria.com
 
 -------------------------------------------------------------------------------------------------------

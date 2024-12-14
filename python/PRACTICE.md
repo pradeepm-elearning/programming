@@ -22,9 +22,6 @@ DATA TYPES & BASE CONVERSIONS
       Hexa-Decimal to Octal
       Hexa-Decimal to Binary
 
-
-
-
 IF-ELSE CONDITIONS
 22. Write a program to find biggest and smallest of 2 given numbers. (DurgaSoft | Video: 82)
 23. Write a program to find biggest and smallest of 3 given numbers. (DurgaSoft | Video: 82)

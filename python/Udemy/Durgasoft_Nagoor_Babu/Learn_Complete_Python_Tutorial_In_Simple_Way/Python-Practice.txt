@@ -1,0 +1,9 @@
+WAP to check the data type (int, str, bool, float) and display address of the object.
+WAP to convert the data type. bin, oct and hex.
+WAP to create a datatype using Exponential Form or Scientific Notation.
+WAP to create a string data type using Positive and Negative Index.
+WAP to create a substring (slice) from a string.
+WAP where 1st Character should be capital letter
+WAP where last Letter should be capital letter
+WAP where first letter and last letter should be capital letter
+WAP to append and remove an elements using list.

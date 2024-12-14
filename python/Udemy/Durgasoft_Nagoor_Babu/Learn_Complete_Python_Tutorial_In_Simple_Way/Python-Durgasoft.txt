@@ -1,0 +1,433 @@
+17. Python Identifier
+---------------------
+Name in python program is called as Identifier
+Name can be variable, class, Method.
+Eg: a = 10
+a is an Identifier.
+
+Rules to create python identifiers are
+a - z
+A - Z
+0 - 9
+_ (underscore)
+
+Identifiers shouldnt have special characters except Underscore (_)
+Identifiers shouldnt start with Digits.
+Identifiers are case sensitive.
+Identifiers doesnt support keywords/reserved words.
+
+x -> Normal Variable
+_x -> Protected Variable
+__x -> Private Variable
+__x__ -> Magic Variable
+
+18. Python Reserved Words
+-------------------------
+There are 33 Reserved Words in Python.
+Contains only alphabets symbols
+Except True, False, None, all the other contains lower case Letters
+No Switch, do-while concept.
+Since Python is dynamic programming language, there are no int, float, bool etc concept.
+
+
+19. Data Types Introduction
+---------------------------
+Type of data stored inside a Variable.
+Eg: int, float, complex, bool, str, list, tuple, set, frozen set, dict, bytes, bytesarray, range, None
+a = 10
+b = 3.6
+type(a)
+type(b)
+
+Eveything is considered as Object.
+a = 10 --> It means 10 is an object.
+type(a) -> shows the type of the object.
+id(a) -> displays address of the object.
+print(a) -> prints the object.
+
+
+20. Data Types: int data type
+------------------------------
+there are 4 types of the int data type.
+binary form (base 2) [0 & 1]
+	should start from 0b or 0B
+	a = 1111 is considered as a decimal value. For binary, a = 0b1111 or a = 0B1111 is considered as binary value.
+decimal form (base 10) [0-9]
+octal form (base 8) [0-7]
+	should start from 0o or 0O
+hexa-decimal form (base 16) [0-9 a-f or A-F]
+	should start from 0x or 0X
+
+
+21. Data Types: Base Conversion Functions
+-----------------------------------------
+Intergral value from one base to another base.
+bin()
+	eg: bin(15)
+		bin(0o123)
+		bin(0xface)
+oct()
+	eg:	oct(100)
+		oct(0b1111)
+		oct(0xface)
+hex()
+	eg: hex(1000)
+		hex(0b1011)
+		hex(0o1234)
+by default, everything is converted to Decimal value.
+
+
+22. Data Types: float data type
+-------------------------------
+Floating point values are only applicable for Decimal form.
+It doesnt support Binary, Octal or Hexadecimal.
+
+Exponential Form or Scientific Notation
+---------------------------------------
+This form is only used for Float value.
+f = 1.2e3
+or
+f = 1.2E3
+
+This can be represented as
+1.2 x 1000 = 1200.0
+
+23. Data Types: complex data type
+----------------------------------
+Its a one type of Number system.
+These complex data type is used to scientific applicatoin, mathematics based application, electrical engineering application.
+
+It is represented as a+bj
+a -> real part
+b -> imaginary part
+j -> j^2=-1
+	 j=square root of 1
+	 
+x = 10+20j
+type(x)
+
+print(x.real) -> to check the real part
+print(x.imag) -> to check the imaginary part
+
+real & imaginary can be either int or float
+real part can be bin, decimal, octal or hexa-decimal.
+imaginary part should compulsary be in decimal form.
+
+We can perform Arithmatic Operator on complex value.
+x = 10+20j
+y = 30+40j
+print(x+y)
+
+24. Data Types: bool data type
+------------------------------
+To represent logical value we use Boolean Data type
+True represented as 1
+False represented as 0
+
+25. Data Types: str data type representations by using single,double and triple quote
+--------------------------------------------------------------------------------------
+string - any sequence of characters.
+eg: pradeep is a string.
+
+It can be used single quotes and double quotes. Also triple quotes is used.
+
+Triple Quotes is used as
+to define multi-line string literal.
+to use " & ' as normal characters in our string.
+to define doc string (in later sections)
+
+26. Data Types: str data type - positive and negative index
+------------------------------------------------------------
+there are 2 types of Index in the str data type.
+Positive Index
+	- starts from 0, 1, 2, . . ., n-1
+	- starts from left to right.
+Negetive Index
+	- starts from -1, -2, -3, . . ., -n
+	- starts from right to left.
+eg: s = 'pradeep'
+print(s[3])	
+
+string methods:
+capitalize()
+title()
+lower()
+upper()
+center()
+strip()
+rstrip()
+lstrip()
+join()
+index()
+encode()
+partition()
+rsplit()
+format_map()
+maketrans()
+isnumeric()
+isalpha()
+translate()
+isidentifier()
+istitle()
+isdecimal()
+rfind()
+casefold()
+isdigit()
+rindex()
+startswith()
+islower()
+isalnum()
+splitlines()
+count()
+isspace()
+split()
+find()
+ljust()
+replace()
+isupper()
+zfill()
+rjust()
+isprintable()
+endswith()
+
+27. Data Types: str data type - Slice Operator
+-----------------------------------------------
+slice operator returns substring (slice) from begin index to end-1 index.
+syntax: s[begin:end]
+eg: s = 'abcdefghijklmnopqrstuvwxyz'
+print(s[3:9])
+
+by default if begin is not defined, it will take the first index.
+s[:9]
+by default if end is not defined, it will consider the end of the index.
+s[3:]
+
+slice operator never raises issue even if the index goes out of range.
+
+
+28. Data Types: str data type - Slice Operator Applications
+-----------------------------------------------------------
+WAP where 1st Character should be capital letter
+s = 'bengaluru'
+output = s[0].upper()+s[1:]
+print(output)
+
+WAP where last Letter should be capital letter
+s = 'bengaluru'
+output = s[0:len(s)-1]+s[-1].upper()
+print(output)
+
+WAP where first letter and last letter should be capital letter
+s = 'bengaluru'
+output = s[0].upper()+s[1:len(s)-1]+s[-1].upper()
+print(output)
+
+29. Data Types: + and * operators for str data type
+---------------------------------------------------
++ operator is applicable for String.
+both the argument has to be string. Else it will throw an error.
+eg: s = 'pradeep' + 10 -> gives you error.
+	s = 'pradeep' + '10'
+
+* -> string repetition operators
+either of the argument should be string/int. Else it will throw error.
+eg: s = 'pradeep' * 3
+	s = 3 * 'pradeep' -> it is valid
+	s = 'pradeep' * 'm" -> throwd error.
+
+
+30. Type Casting: introduction and int() function
+--------------------------------------------------
+Type Casting - process of converting from one type value to another type value.
+It is also called as Type Cohersion.
+
+There are 5 Type Casting functions to convert one type value to another type value.
+int()
+float()
+complex()
+bool()
+str()
+
+int() -
+to convert other type functions to int type.
+	float to int: int(10.498)
+	complex to int: CANNOT BE CONVERTED TO INT TYPE
+	bool to int: int(True)
+	str to int: int('15')
+		str internally contains only integral values that should be specified in base 10 only.
+
+
+31. Type Casting: float() and complex() functions
+-------------------------------------------------
+float() - 
+to convert other type functions to float type.
+	int to float: float(15) | float(0o123) | float(0xface) | float(0b1111)
+	complex to float: CANNOT BE CONVERTED TO FLOAT TYPE. We will get Type Error.
+	boolean to float: float(True)
+	str to float: float("10")
+		interanally string should contain either int value or float value but should be specified in base 10.
+
+complex() - 
+to convert other type functions to complex type.
+
+	Form-1:
+		complex(x) -> here x is real value
+		eg: complex(10) -> 10+0j
+				complex(0B1111) -> 15+0j
+				complex(10.5) -> 10.5+0j
+				complex(True) -> 1+0j
+				complex(false) - 0+0j = 0j
+				complex("10") -> 10+0j
+					complex in str should contain either int value or float value and should be specified in base 10.
+	Form-2:
+		complex(x,y) -> here x is real value, y is imaginary value.
+		eg: complex(10,20) -> 10+20j
+				complex(10.5,20.6) -> 10.5+20.6j
+				complex("10","20") - ERROR - if we wnat to pass string value, the 2nd argument should not be a string.
+				complex(10,"20") - ERROR - 2nd argument should not be string.
+
+32. Type Casting: bool() and str() functions
+--------------------------------------------
+bool() - 
+to convert other type functions to bool type.
+	int: if the argument value is Zero, it is treated as False or else True.
+		bool(10) -> True
+		bool(0) -> False
+	float: if the argument value is Zero, it is treated as False & Non-Zero is always treated as true.
+		bool(0.0) -> False
+		bool(0.1) -> True
+		bool(-0.0001) -> True
+	complex: if both real and imaginary part is Zero, it is treated as False. Else True.
+		bool(0+0j) -> false
+		bool(1+0j) -> True
+	str: if the argument is empty string, it is treated as False. Else True.
+		bool('True') -> True
+		bool('False') -> True
+		bool('') - False
+
+str() - 
+	No such Rules
+		str(10) -> '10'
+		str(0B1111) -> '15'
+		str(True) -> 'True'
+		str('False') -> 'False'
+
+34. Fundamental Data Types vs Immutability : Meaning Of Immutability
+--------------------------------------------------------------------
+Fundamental Data Types: int, float, bool, complex, str.
+Mutable - Changeable
+Immutable - Non-Changeable
+	- All Fundamental Data types are Immutable. Once we create an object, we cannot perform any changes in that object.
+		If we are trying to perform any changes, with those changes, a new object will be created.
+eg:
+x = 10
+print(id(x))
+x = x + 1
+print(id(x))
+
+here 2 objects are created. x=10 & x=11. here, x=10 becomes a garbage collection as x=11 is replaced.
+
+37. Python Data Types: List data type
+-------------------------------------
+fundamental data type can hold only one value. collection related data types can hold a group of values & a group of value as a single entity.
+collection related data type
+	list
+	tuple
+	set
+	frozenset
+	dict
+	range
+	bytes
+	bytesarray
+
+List -
+	Sequence of values where order is there and duplicates are allowed
+	list represents a group of values, group of objects as a single entity where duplicates are allowed and insertion order is important.
+	list is represented by square brackets. []
+		l = [10,'durga',10,20,30]
+		print(type(l))
+	1. order is preserved.
+	2. duplicates are allowed.
+	3. contains within []
+	4. Heterogenous objects.
+	5. Indexing and Slicing concepts are applicable.
+	6. Growable in nature.
+	7. Mutable.
+
+	append method: append() - this is used to add elements at the end of the list.
+		l.append(10)
+		l.append(20)
+	remove method: remove() - Remove existing elements.
+		l.remove(20)
+
+38. Python Data Types: Tuple data type
+---------------------------------------
+Tuple - 
+	Similar to list except it is Immutable. Once we create a tuple object we cannot perform any changes in that object.
+	It is a read-only version of List.
+	Tuple can be represented by ().
+		k = (1,'Pradeep',30,40)
+	We cannot add or remove anything using Tuple.
+	Single value Tuple should end with ",", else PVM will consider this as a int value
+	eg: k = (10) -> this is integer
+			k = (10,) -> this is Tuple.
+
+	39. Python Data Types: Set data type
+	------------------------------------
+	Set - 
+		Group of values as a single entity where Duplicates are not allowed & order is not required.
+			-	Indexing and Slicing not allowed.
+			-	heterogenous objects
+		Set can be represented by {}
+		s = {10,20,10,'Pradeep',30,40}
+		print(type(s))
+		print(s)
+
+	add method: add() - this is used to add elements only. Not sure in which position it adds.
+		l.append(80)
+	remove method: remove() - Remove existing elements.
+		l.remove(20)
+	
+	s = {10,20,30,40}
+	print(s)
+	s.add(50)
+	print(s)
+	s.remove(20)
+	print(s)
+
+	note: s = {} is dict and not set.
+
+	for empty set you can create
+	s = set()
+	print(type(s))
+	print(s)
+
+	40. Python Data Types: FrozenSet
+	--------------------------------
+	Frozenset is exactly same as Set but it is Immutable.
+	s = {10,20,30,40}
+	fs = frozenset(s)
+	print(type(fs))
+
+	Since frozenset is Immutable, we cannot add or remove any elements.
+
+	41. Python Data Types: Dict
+	---------------------------
+
+	Dict: If we want to represent a group of object as key value pair, then we can use Dict Data Types.
+	eg: d = {k1:v1, k2:v2, . . . .}
+			d = {100:Pradeep, 200:Sunny, 300:Chinni}
+
+	We can also create an empty dictionaries.
+	Syntax: d = {}
+					d[key1]=value2
+	eg: d = {}
+			d[100] = 'Pradeep'
+			d[200] = 'Sunny'
+			print(d)
+
+No guarantee of orders here.
+Duplicate keys are not allowed but duplicate values are allowed. If we are trying to add Duplicate Keys, old value will be replaced with new values.
+Heterogenous object are allowed.
+Mutable.
+Indexing / Slicing are not allowed.

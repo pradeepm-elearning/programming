@@ -3,31 +3,18 @@
 
 VARIABLES
 01. Write a Program to enter your full name using Input option and find the length of the variable. (Jenny | Video: 08)
-      1st Letters of Name should be Capital Letters
-      Output name should be Right Alignment.
 02. Swap 2 numbers using Input and Print. (Jenny | Video: 10)
 03. Write a program to add 2 digits of a Single Number (Jenny | Video: 14)
-
-DATA TYPES & BASE CONVERSIONS
-04. Write a program to convert int data type given below (DurgaSoft | Video: 20 & 21)
-      Binary to Decimal
-      Binary to Octal
-      Binay to Hexa-Decimal
-
-      Octal to Decimal
-      Octal to Binary
-      Octal to Hexa-Decimal
-
-      Hexa-Decimal to Decimal
-      Hexa-Decimal to Octal
-      Hexa-Decimal to Binary
 
 IF-ELSE CONDITIONS
 22. Write a program to find biggest and smallest of 2 given numbers. (DurgaSoft | Video: 82)
 23. Write a program to find biggest and smallest of 3 given numbers. (DurgaSoft | Video: 82)
+24. Write a program to check whether the given number is in-between 1 and 100 or not. (Durgasoft | Video:82)
 24. Write a program to take a single digit number from the keyboard and print its value in English words using if-elif-else. (DurgaSoft | Video: 83)
 25. Write a program to take a single digit number from the keyboard and print its value in English words using list. (DurgaSoft | Video: 83)
 25. Write a program to take a digit between 0 to 99 from the keyboard and print its value in English words using list. (DurgaSoft | Video: 83)
+26. Write a program to check if you are eligible for Voting using if-else statement. (Jenny's Lecture | Video: )
+27. Write a program to check if the entered number is Odd or Even.
 
 FOR STATEMENTS:
 26. Write a program to print a string using for loop statement with index printed in the output. (DurgaSoft | Video: 84)
@@ -36,11 +23,17 @@ FOR STATEMENTS:
 29. Write a program to print numbers from 1 to 10 in decesending order using for loop statement and range function. (DurgaSoft | Video: 85)
 30. Write a program to print the sum of numbers in the given list using for loop statement. [Research is required] (DurgaSoft | Video: 85)
 31. Write a program to print the sum of numbers in the given list without using for loop statement. [Research is required] (DurgaSoft | Video: 85)
+32. Write a program to convert int data type & base conversion given below (DurgaSoft | Video: 20 & 21) using input and for loop statement (OWN STRATEGY)
+      Binary to Decimal | Binary to Octal | Binary to Hexa-Decimal
+      Octal to Decimal | Octal to Binary | Octal to Hexa-Decimal
+      Hexa-Decimal to Decimal | Hexa-Decimal to Octal | Hexa-Decimal to Binary
 
 WHILE STATEMENTS:
 32. Write a program to print a string 10 times using while statement along with serial numbers. (DurgaSoft | Video: 86)
 33. Write a program to print number from 1 to 20 which are divisible by 3. (DurgaSoft | Video: 86)
-34. Write a program to print sum of first 'n' numbers. (DurgaSoft | Video: 86)
+34. Write a program to Enter Name (string), Age (int). If not entered correctly, the program should prompt until true. (YT|Bro Code | While Loops)
+35. Write a program to Enter favourite Foods until a specific key is pressed, it should not exit. (YT|Bro Code | While Loops)
+34. Write a program to print sum of first 'n' numbers. [Research is required] (DurgaSoft | Video: 86)
 35. Write a program to execute a block of statement until a specific name/string is entered. (DurgaSoft | Video: 86)
 
 BREAK:
@@ -48,6 +41,18 @@ BREAK:
 CONTINUE:
 
 PRIME NUMBERS:
+
+USER DEFINED FUNCTIONS:
+1. Write a Program to take a name of the student as input and print the wish message by name using Functions.
+2. Write a Program to take a number as input and print its square value using Functions.
+3. Write a Program to find factorial of given positive interger value using Functions. (Udemy: Durgasoft - 210)
+4. Write a Program to add, sub, mul, div 2 numbers returning Multiple Values from a functions.
+5. Write a Program to find the Area of a Rectangle using return statement.(Youtube: Visually Explained - Python Functions)
+6. Write a Program to accept 2 numbers as input and return sum. (Udemy: Durgasoft - 210)
+7. Returning Multiple Values from a Function.
+8. Positional Arguments, Keyword Arguments, Default Arguments, Variable Length Arguments. (Udemy: Durgasoft - 212, 213, 214, 215, 216)
+9. *args & **kwargs. (Udemy: Durgasoft - 217)
+
 
 
 -x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
@@ -82,8 +87,7 @@ OPERATORS
 21. Write a program to print name, age, height and weight using f-string.
 
 
-22. Write a program to check if you are eligible for Voting using if-else statement.
-23. Write a program to check if the entered number is Odd or Even.
+
 
 23. Write a program to check height eligible for a Roller Coaster ride & cost based on age.
       Use input, f-string, type conversion

@@ -2,9 +2,19 @@
 ## PRACTICE QUESTIONS
 
 VARIABLES
-01. Write a Program to enter your full name using Input option and find the length of the variable. (Jenny | Video: 08)
-02. Swap 2 numbers using Input and Print. (Jenny | Video: 10)
-03. Write a program to add 2 digits of a Single Number (Jenny | Video: 14)
+1. Write a Program to enter your full name using Input option and find the length of the variable. <span style="background-color:#A435F0; color:#000000">`Udemy`</span><span style="background-color:#FF0033; color:#000000">`Youtube`</span><span style="background-color:#FFD230; color:#000000">`Jenny's Lectures CS IT`</span><span style="background-color:#9FFF6B; color:#ffffff">`Python - Basic to Advance`</span><span style="background-color:#C1E2EB; color:#ffffff">`Video: 08`</span>
+2. Swap 2 numbers using Input and Print. <span style="background-color:#A435F0; color:#000000">`Udemy`</span><span style="background-color:#FF0033; color:#000000">`Youtube`</span><span style="background-color:#FFD230; color:#000000">`Jenny's Lectures CS IT`</span><span style="background-color:#9FFF6B; color:#ffffff">`Python - Basic to Advance`</span><span style="background-color:#C1E2EB; color:#ffffff">`Video: 10`</span>
+3. Write a program to add 2 digits of a Single Number <span style="background-color:#A435F0; color:#000000">`Udemy`</span><span style="background-color:#FF0033; color:#000000">`Youtube`</span><span style="background-color:#FFD230; color:#000000">`Jenny's Lectures CS IT`</span><span style="background-color:#9FFF6B; color:#ffffff">`Python - Basic to Advance`</span><span style="background-color:#C1E2EB; color:#ffffff">`Video: 14`</span>
+
+STRINGS
+01. Write a Program to (Corey Schafer | Python Tutorial for Beginners | Video-02 )
+      find a particular string index
+      convert a given string to Lowercase
+      convert a given string to Uppercase
+      count a string
+      find a particular string
+      replace a particular string to desired string
+
 
 IF-ELSE CONDITIONS
 22. Write a program to find biggest and smallest of 2 given numbers. (DurgaSoft | Video: 82)
@@ -17,16 +27,18 @@ IF-ELSE CONDITIONS
 27. Write a program to check if the entered number is Odd or Even.
 
 FOR STATEMENTS:
-26. Write a program to print a string using for loop statement with index printed in the output. (DurgaSoft | Video: 84)
-27. Write a program to print a string 'n' times using for loop statement and range function. (DurgaSoft | Video: 85)
-28. Write a program to print odd numbers from 0 to 20 using for loop statement and range function. [There are two ways.] (DurgaSoft | Video: 85)
-29. Write a program to print numbers from 1 to 10 in decesending order using for loop statement and range function. (DurgaSoft | Video: 85)
-30. Write a program to print the sum of numbers in the given list using for loop statement. [Research is required] (DurgaSoft | Video: 85)
-31. Write a program to print the sum of numbers in the given list without using for loop statement. [Research is required] (DurgaSoft | Video: 85)
-32. Write a program to convert int data type & base conversion given below (DurgaSoft | Video: 20 & 21) using input and for loop statement (OWN STRATEGY)
+1. Write a program to print a string using for loop statement with index printed in the output. (DurgaSoft | Video: 84)
+2. Write a program to print a string 'n' times using for loop statement and range function. (DurgaSoft | Video: 85)
+3. Write a program to print odd numbers from 0 to 20 using for loop statement and range function. [There are two ways.] (DurgaSoft | Video: 85)
+4. Write a program to print numbers from 1 to 10 in decesending order using for loop statement and range function. (DurgaSoft | Video: 85)
+5. Write a program to print the sum of numbers in the given list using for loop statement. [Research is required] (DurgaSoft | Video: 85)
+6. Write a program to print the sum of numbers in the given list without using for loop statement. [Research is required] (DurgaSoft | Video: 85)
+7. Write a program to convert int data type & base conversion given below (DurgaSoft | Video: 20 & 21) using input and for loop statement (OWN STRATEGY)
       Binary to Decimal | Binary to Octal | Binary to Hexa-Decimal
       Octal to Decimal | Octal to Binary | Octal to Hexa-Decimal
       Hexa-Decimal to Decimal | Hexa-Decimal to Octal | Hexa-Decimal to Binary
+8. Write a program to calculate the square of numbers using list & print the output in 1 line.
+9. 
 
 WHILE STATEMENTS:
 32. Write a program to print a string 10 times using while statement along with serial numbers. (DurgaSoft | Video: 86)
@@ -49,7 +61,7 @@ USER DEFINED FUNCTIONS:
 4. Write a Program to add, sub, mul, div 2 numbers returning Multiple Values from a functions.
 5. Write a Program to find the Area of a Rectangle using return statement.(Youtube: Visually Explained - Python Functions)
 6. Write a Program to accept 2 numbers as input and return sum. (Udemy: Durgasoft - 210)
-7. Returning Multiple Values from a Function.
+7. Returning Multiple Values from a Function. (Udemy: Durgasoft - 211)
 8. Positional Arguments, Keyword Arguments, Default Arguments, Variable Length Arguments. (Udemy: Durgasoft - 212, 213, 214, 215, 216)
 9. *args & **kwargs. (Udemy: Durgasoft - 217)
 

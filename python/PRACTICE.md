@@ -1,12 +1,11 @@
 # PYTHON PROGRAMMING
-## PRACTICE QUESTIONS
-
-### VARIABLES
+### PRACTICE QUESTIONS
+#### VARIABLES
 1. Write a Program to enter your full name using Input option and find the length of the variable. `Youtube` `Jenny's Lectures CS IT` `Python - Basic to Advance` `Video: 08`
 2. Swap 2 numbers using Input and Print. `Youtube` `Jenny's Lectures CS IT` `Python - Basic to Advance` `Video: 10`
 3. Write a program to add 2 digits of a Single Number. `Youtube` `Jenny's Lectures CS IT` `Python - Basic to Advance` `Video: 14`
 
-### STRINGS
+#### STRINGS
 01. Write a Program to `Youtube` `Corey Schafer` `Python Tutorial for Beginners` `Video: 02`
     * find a particular string index.
     * convert a given string to Lowercase.
@@ -25,7 +24,7 @@
 26. Write a program to check if you are eligible for Voting using if-else statement. (Jenny's Lecture | Video: )
 27. Write a program to check if the entered number is Odd or Even.
 
-##### FOR STATEMENTS:
+#### FOR STATEMENTS:
 1. Write a program to print a string using for loop statement with index printed in the output. (DurgaSoft | Video: 84)
 2. Write a program to print a string 'n' times using for loop statement and range function. (DurgaSoft | Video: 85)
 3. Write a program to print odd numbers from 0 to 20 using for loop statement and range function. [There are two ways.] (DurgaSoft | Video: 85)
@@ -39,7 +38,7 @@
 8. Write a program to calculate the square of numbers using list & print the output in 1 line.
 9. 
 
-###### WHILE STATEMENTS:
+#### WHILE STATEMENTS:
 32. Write a program to print a string 10 times using while statement along with serial numbers. (DurgaSoft | Video: 86)
 33. Write a program to print number from 1 to 20 which are divisible by 3. (DurgaSoft | Video: 86)
 34. Write a program to Enter Name (string), Age (int). If not entered correctly, the program should prompt until true. (YT|Bro Code | While Loops)

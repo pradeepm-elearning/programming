@@ -2,18 +2,18 @@
 ## PRACTICE QUESTIONS
 
 VARIABLES
-1. Write a Program to enter your full name using Input option and find the length of the variable. <span style="background-color:#A435F0; color:#000000">`Udemy`</span><span style="background-color:#FF0033; color:#000000">`Youtube`</span><span style="background-color:#FFD230; color:#000000">`Jenny's Lectures CS IT`</span><span style="background-color:#9FFF6B; color:#ffffff">`Python - Basic to Advance`</span><span style="background-color:#C1E2EB; color:#ffffff">`Video: 08`</span>
-2. Swap 2 numbers using Input and Print. <span style="background-color:#A435F0; color:#000000">`Udemy`</span><span style="background-color:#FF0033; color:#000000">`Youtube`</span><span style="background-color:#FFD230; color:#000000">`Jenny's Lectures CS IT`</span><span style="background-color:#9FFF6B; color:#ffffff">`Python - Basic to Advance`</span><span style="background-color:#C1E2EB; color:#ffffff">`Video: 10`</span>
-3. Write a program to add 2 digits of a Single Number <span style="background-color:#A435F0; color:#000000">`Udemy`</span><span style="background-color:#FF0033; color:#000000">`Youtube`</span><span style="background-color:#FFD230; color:#000000">`Jenny's Lectures CS IT`</span><span style="background-color:#9FFF6B; color:#ffffff">`Python - Basic to Advance`</span><span style="background-color:#C1E2EB; color:#ffffff">`Video: 14`</span>
+1. Write a Program to enter your full name using Input option and find the length of the variable. `Youtube` `Jenny's Lectures CS IT` `Python - Basic to Advance` `Video: 08`
+2. Swap 2 numbers using Input and Print. `Youtube` `Jenny's Lectures CS IT` `Python - Basic to Advance` `Video: 10`
+3. Write a program to add 2 digits of a Single Number. `Youtube` `Jenny's Lectures CS IT` `Python - Basic to Advance` `Video: 14`
 
 STRINGS
-01. Write a Program to (Corey Schafer | Python Tutorial for Beginners | Video-02 )
-      find a particular string index
-      convert a given string to Lowercase
-      convert a given string to Uppercase
-      count a string
-      find a particular string
-      replace a particular string to desired string
+01. Write a Program to `Youtube` `Corey Schafer` `Python Tutorial for Beginners` `Video: 02`
+...find a particular string index
+...convert a given string to Lowercase
+...convert a given string to Uppercase
+...count a string
+...find a particular string
+...replace a particular string to desired string
 
 
 IF-ELSE CONDITIONS

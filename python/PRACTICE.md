@@ -1,10 +1,11 @@
 # PYTHON PROGRAMMING
 ### PRACTICE QUESTIONS
+---
 #### VARIABLES
 1. Write a Program to enter your full name using Input option and find the length of the variable. `Youtube` `Jenny's Lectures CS IT` `Python - Basic to Advance` `Video: 08`
 2. Swap 2 numbers using Input and Print. `Youtube` `Jenny's Lectures CS IT` `Python - Basic to Advance` `Video: 10`
 3. Write a program to add 2 digits of a Single Number. `Youtube` `Jenny's Lectures CS IT` `Python - Basic to Advance` `Video: 14`
-
+---
 #### STRINGS
 01. Write a Program to `Youtube` `Corey Schafer` `Python Tutorial for Beginners` `Video: 02`
     * find a particular string index.
@@ -13,7 +14,7 @@
     * count a string.
     * find a particular string.
     * replace a particular string to desired string.
-
+---
 #### IF-ELSE CONDITIONS
 22. Write a program to find biggest and smallest of 2 given numbers. (DurgaSoft | Video: 82)
 23. Write a program to find biggest and smallest of 3 given numbers. (DurgaSoft | Video: 82)
@@ -23,7 +24,7 @@
 25. Write a program to take a digit between 0 to 99 from the keyboard and print its value in English words using list. (DurgaSoft | Video: 83)
 26. Write a program to check if you are eligible for Voting using if-else statement. (Jenny's Lecture | Video: )
 27. Write a program to check if the entered number is Odd or Even.
-
+---
 #### FOR STATEMENTS:
 1. Write a program to print a string using for loop statement with index printed in the output. (DurgaSoft | Video: 84)
 2. Write a program to print a string 'n' times using for loop statement and range function. (DurgaSoft | Video: 85)

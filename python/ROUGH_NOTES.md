@@ -2,15 +2,29 @@
 
 ### CONTENTS
 ---
-#### TEMPLATE | COLOR INLINE CODE BLOCK.
-```
+#### INLINE CODE BLOCK | COLOUR | TEMPLATE
+
+<code style="background-color:#A435F0; color:#000000">`Udemy`</code>
+<code style="background-color:#FF0033; color:#000000">`Youtube`</code>
+<code style="background-color:#FFD230; color:#000000">`Trainer Name`</code>
+<code style="background-color:#9FFF6B; color:#000000">`Playist Name`</code>
+<code style="background-color:#C1E2EB; color:#000000">`Video: NO`</code>
+
+<span style="background-color:#A435F0; color:#ffffff">`Udemy`</span>
+<span style="background-color:#FF0033; color:#ffffff">`Youtube`</span>
+<span style="background-color:#FFD230; color:#ffffff">`Trainer Name`</span>
+<span style="background-color:#9FFF6B; color:#ffffff">`Playist Name`</span>
+<span style="background-color:#C1E2EB; color:#ffffff">`Video: NO`</span>
+
 <span style="background-color:#A435F0; color:#000000">`Udemy`</span>
 <span style="background-color:#FF0033; color:#000000">`Youtube`</span>
-<span style="background-color:#A435F0; color:#000000">`Trainer Name`</span>
-<span style="background-color:#ADD8E6; color:#ffffff">`Playist Name`</span>
-<span style="background-color:#7DFF38; color:#ffffff">`Video: NO`</span>
-```
+<span style="background-color:#FFD230; color:#000000">`Trainer Name`</span>
+<span style="background-color:#9FFF6B; color:#ffffff">`Playist Name`</span>
+<span style="background-color:#C1E2EB; color:#ffffff">`Video: NO`</span>
+
 ###### NOTE: These Colour Inline Code Block Styles are not working in Git Hub.
+<p> NOTE: These Colour Inline Code Block Styles are not working in Git Hub. </p>
+
 ---
 #### COLOR CODES:
 1. #A435F0 - Youtube Red
@@ -20,3 +34,5 @@
 5. #CEFB3C
 6. #FBC83C
 7. #FFD230
+
+---

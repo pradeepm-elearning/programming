@@ -38,7 +38,7 @@
       Hexa-Decimal to Decimal | Hexa-Decimal to Octal | Hexa-Decimal to Binary
 8. Write a program to calculate the square of numbers using list & print the output in 1 line.
 9. 
-
+---
 #### WHILE STATEMENTS:
 32. Write a program to print a string 10 times using while statement along with serial numbers. (DurgaSoft | Video: 86)
 33. Write a program to print number from 1 to 20 which are divisible by 3. (DurgaSoft | Video: 86)
@@ -46,13 +46,13 @@
 35. Write a program to Enter favourite Foods until a specific key is pressed, it should not exit. (YT|Bro Code | While Loops)
 34. Write a program to print sum of first 'n' numbers. [Research is required] (DurgaSoft | Video: 86)
 35. Write a program to execute a block of statement until a specific name/string is entered. (DurgaSoft | Video: 86)
-
+---
 BREAK:
-
+---
 CONTINUE:
-
+---
 PRIME NUMBERS:
-
+---
 USER DEFINED FUNCTIONS:
 1. Write a Program to take a name of the student as input and print the wish message by name using Functions.
 2. Write a Program to take a number as input and print its square value using Functions.
@@ -63,29 +63,27 @@ USER DEFINED FUNCTIONS:
 7. Returning Multiple Values from a Function. (Udemy: Durgasoft - 211)
 8. Positional Arguments, Keyword Arguments, Default Arguments, Variable Length Arguments. (Udemy: Durgasoft - 212, 213, 214, 215, 216)
 9. *args & **kwargs. (Udemy: Durgasoft - 217)
-
-
-
+---
 -x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
-
+---
 PRINT FUNCTION
 01. Print "Hello World" using " and ' quotes. (Jenny | Video-7)
 02. Print "Hello World" in next line. (Jenny | Video-7)
 03. Print "Hello World" using concatenation. (Jenny | Video-7)
-
+---
 INPUT FUNCTION
 04. Input your Name & Print the output.
-
+---
 
 
 DATA TYPES
 08. Print different Data Types like int (binary, decimal, octal, hexadecimal), float, bool & string using variables
-
+---
 TYPE CASTING / TYPE CONVERSION
 10. Print a string and calculate the length of the string using Data Type Conversion.
 11. Print sum of 2 numbers using input and data type conversion.
 12. Program to add 2 digit number using Type conversion and subscripts.
-
+---
 OPERATORS
 13. Program to write BMI using Operators.
 14. Program using all arithmatic (+,-,*,/,//,**) operators.
